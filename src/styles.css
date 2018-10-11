@@ -1,0 +1,34 @@
+img {
+  background-color: #005500;
+}
+
+.App {
+  font-family: sans-serif;
+}
+.App .title {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#editor {
+  height: 400px;
+  width: 300px;
+  overflow: auto;
+  white-space: nowrap;
+}
+#preview {
+  height: 400px;
+  width: max-content;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+
+.preview {
+  /* display: flex;
+  flex-direction: column;
+  align-items:baseline;
+  justify-content:baseline; */
+}
